@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build.rs
+cargo:rustc-cfg=no_core_num_saturating
+cargo:rustc-cfg=no_diagnostic_namespace
